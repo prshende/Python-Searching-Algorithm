@@ -1,3 +1,5 @@
+#Linear Search program
+
 def linear_search(list,target):
     for i in range(len(list)):
         if list[i]==target:
@@ -11,8 +13,9 @@ def verify(index):
         print("Target not found")
 
 n=[11,2,33,4,5,6,7,8]
-result= linear_search(n,3)
+result= linear_search(n,8)
 verify(result)
+
 
 
 
